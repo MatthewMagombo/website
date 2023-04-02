@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vacation Website Project</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="web.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Montserrat:wght@200&family=Oswald:wght@300&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+<script>
+	/* JavaScript code for the burger icon and navigation links */
+const burger = document.querySelector('.burger');
+const nav = document.querySelector('.nav-links');
+
+burger.addEventListener('click', () => {
+  // Toggle nav
+  nav.classList.toggle('nav-active');
+  
+  // Animate burger
+  burger.classList.toggle('close');
+});
+</script>
+</head>
+
+<body>
+	<nav id="nav">
+		<div class="logo">
+			<a href="#">LeVacation</a>
+		</div>
+		<ul class="nav-links">
+			<li><a href="#">Home</a></li>
+			<li><a href="#footer">About Us</a></li>
+			<li><a href="#contact">Contact Us</a></li>
+			
+            <li><a href="#explore">Explore</a></li>
+		</ul>
+		<div class="burger">
+			<div class="burger-line"></div>
+			<div class="burger-line"></div>
+			<div class="burger-line"></div>
+		</div>
+		<script>
+
+		</script>
+	</nav>
+	
+	<header class="showcase">
+		<div class="overlay"></div>
+		<div class="hero-text">
+			<h1>Vacation Services</h1>
+			<p>Discover Your Next Adventure</p>
+			<button >View packages </button>
+		</div>
+	</header>
+	
+	<section class="explore" id="explore">
+		<h2>Explore with us</h2>
+		<p> <b>We are a travel agency that specializes in providing personalized vacation packages for our clients. Our experienced team of travel experts will work with you to create a customized itinerary that suits your interests and budget.</b> 
+			<br>
+			<p><b> Our vacation agent website mainly focuses on providing guidelines to travellers who wants to have a comfortable stay at their destinations.Feel Free to work with our team and we will accompany you anywhere you want to go within our vacancies</b> 
+			</p> <br>
+		
+	</section>
+	<div class="ExploreOptions" id="explore">
+		<div class="ex">
+			<figure>
+				<img src="sebastian-scholz-nuki-Fh3Dtg6QX4Q-unsplash.jpg" alt="">
+				<figcaption><b>LIVING ROOM AREA</b> 	</figcaption>
+			
+			</div>
+				
+			</figure>
+		<div class="ex">
+			<figure>
+				<img src="pexels-saviesa-home-2089698.jpg" alt="">
+				<figcaption><b> KITCHEN AREA</b></figcaption>
+			</figure>
+		
+		</div>
+		<div class="ex">
+			<FIGURE>
+				<img src="rene-molenkamp-CTbTIyZOk88-unsplash.jpg" alt="">
+				<figcaption><b> SWIMMING POOL AREA</b></figcaption>
+			</FIGURE>
+		
+		</div>
+	</div>
+	
+	<section class="contact" id="contact">
+		<h2>Contact Us</h2>
+		<form action="submit-form.php" method="POST" id="Contacts ">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+			
+			<label for="email">Email address:</label>
+
+			<input type="email" id="email" name="email" required>
+			
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" required></textarea>
+			
+			<input type="submit" value="Submit " id="submit"> 
+	</section>
+	<!--
+<section class="gallery">
+		<h2>Gallery</h2>
+		<div class="gallery-container">
+			<img src="pexels-saviesa-home-2089698.jpg" alt="Gallery Image 1">
+			<img src="pexels-saviesa-home-2089698.jpg" alt="Gallery Image 2">
+			<img src=" r-architecture-wot0Q5sg91E-unsplash.jpg" alt="Gallery Image 3">
+			<img src="rene-molenkamp-CTbTIyZOk88-unsplash.jpg" alt="Gallery Image 4">
+			<img src="sebastian-scholz-nuki-Fh3Dtg6QX4Q-unsplash.jpg" alt="Gallery Image 5">
+			<img src="tom-barrett-M0AWNxnLaMw-unsplash.jpg" alt="Gallery Image 6">
+		</div>
+	</section>
+	-->
+	
+	
+	<footer id="footer">
+
+		<div class="footer">
+			<div class="copyright">
+				<h3>@Copyright</h3>
+			</div>
+			<div class="div"><a href=""> <img src="" alt=""></a>
+			</div>
+
+
+		</div>
+	</footer>
+
+
+
+		
