@@ -21,7 +21,6 @@ burger.addEventListener('click', () => {
 });
 </script>
 </head>
-
 <body>
 	<nav id="nav">
 		<div class="logo">
@@ -52,16 +51,23 @@ burger.addEventListener('click', () => {
 			<button >View packages </button>
 		</div>
 	</header>
-	
+	<div class="main">
+		<div class="back"></div>
+		<div class="back2"></div>
+	</div>
 	<section class="explore" id="explore">
 		<h2>Explore with us</h2>
-		<p> <b>We are a travel agency that specializes in providing personalized vacation packages for our clients. Our experienced team of travel experts will work with you to create a customized itinerary that suits your interests and budget.</b> 
-			<br>
-			<p><b> Our vacation agent website mainly focuses on providing guidelines to travellers who wants to have a comfortable stay at their destinations.Feel Free to work with our team and we will accompany you anywhere you want to go within our vacancies</b> 
-			</p> <br>
 		
+		
+		<p> We are a travel agency that specializes in providing personalized vacation packages for our clients. Our experienced team of travel experts will work with you to create a customized itinerary that suits your interests and budget.
+			<br> <br> Our vacation agent website mainly focuses on providing guidelines to travellers who wants to have a comfortable stay at their destinations.Feel Free to work with our team and we will accompany you anywhere you want to go within our vacancies</p>
+			
+			
+			
 	</section>
+	
 	<div class="ExploreOptions" id="explore">
+
 		<div class="ex">
 			<figure>
 				<img src="sebastian-scholz-nuki-Fh3Dtg6QX4Q-unsplash.jpg" alt="">
@@ -88,7 +94,8 @@ burger.addEventListener('click', () => {
 	
 	<section class="contact" id="contact">
 		<h2>Contact Us</h2>
-		<form action="submit-form.php" method="POST" id="Contacts ">
+		<!--
+<form action="submit-form.php" method="POST" id="Contacts ">
 			<label for="name">Name:</label>
 			<input type="text" id="name" name="name" required>
 			
@@ -100,6 +107,49 @@ burger.addEventListener('click', () => {
 			<textarea id="message" name="message" required></textarea>
 			
 			<input type="submit" value="Submit " id="submit"> 
+		-->
+		<form action="insert.php" method="POST">
+			<table>
+			 <tr>
+			  <td>Name :</td>
+			  <td><input type="text" name="username" required></td>
+			 </tr>
+			 <tr>
+			  <td>Password :</td>
+			  <td><input type="password" name="password" required></td>
+			 </tr>
+			 <tr>
+			  <td>Gender :</td>
+			  <td>
+			   <input type="radio" name="gender" value="m" required>Male
+			   <input type="radio" name="gender" value="f" required>Female
+			  </td>
+			 </tr>
+			 <tr>
+			  <td>Email :</td>
+			  <td><input type="email" name="email" required></td>
+			 </tr> 
+			 <tr>
+			  <td>Phone no :</td>
+			  <td>
+			   <select name="phoneCode" required>
+				<option selected hidden value="">Select Code</option>
+				<option value="977">977</option>
+				<option value="978">978</option>
+				<option value="979">979</option>
+				<option value="973">973</option>
+				<option value="972">972</option>
+				<option value="974">974</option>
+			   </select>
+			   <input type="phone" name="phone" required>
+			  </td>
+			 </tr>
+			 <tr>
+			  <td><input type="submit" value="Submit" name="submit"></td>
+			 </tr>
+			</table>
+		   </form>
+		
 	</section>
 	<!--
 <section class="gallery">
@@ -110,7 +160,8 @@ burger.addEventListener('click', () => {
 			<img src=" r-architecture-wot0Q5sg91E-unsplash.jpg" alt="Gallery Image 3">
 			<img src="rene-molenkamp-CTbTIyZOk88-unsplash.jpg" alt="Gallery Image 4">
 			<img src="sebastian-scholz-nuki-Fh3Dtg6QX4Q-unsplash.jpg" alt="Gallery Image 5">
-			<img src="tom-barrett-M0AWNxnLaMw-unsplash.jpg" alt="Gallery Image 6">
+			<img src="t
+cp: cannot stat '/website/web ass/web.css': No such file or directoryom-barrett-M0AWNxnLaMw-unsplash.jpg" alt="Gallery Image 6">
 		</div>
 	</section>
 	-->
