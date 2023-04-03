@@ -302,11 +302,14 @@ html {
 	margin-top: 100px;
 	border: none;
 	background:lightblue;
+	width: 30%;
+	margin-left: 400px;
+	padding: 100px;
 	
 	border-radius: 20px;
 }
 .contact h2{
-	font-size: 100px;
+	font-size: 30px;
 }
 
   
@@ -315,6 +318,7 @@ html {
 	max-width: 500px;
 	margin: 0 auto;
 	font-family: Arial, sans-serif;
+	font-size: 20px;
   }
   
   label {
